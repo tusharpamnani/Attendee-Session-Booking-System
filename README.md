@@ -57,6 +57,3 @@ Create a backend system to facilitate the booking and management of sessions for
 
 6. **Issues and Bug Reports:**
    - Report any issues or bugs using the GitHub issue tracker.
-
-7. **License:**
-   - This project is licensed under the MIT License - see the `LICENSE` file for details.
