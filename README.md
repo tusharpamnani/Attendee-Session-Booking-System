@@ -30,10 +30,11 @@ Create a backend system to facilitate the booking and management of sessions for
    - If a warden logs in after the session time booked by another warden (e.g., Warden A), the system updates the pending session list to exclude the past session.
 
 **API Endpoints:**
-1. `POST /api/login` - User authentication and token generation.
-2. `GET /api/free-sessions` - Get a list of free sessions.
-3. `POST /api/book-session` - Book a session.
-4. `GET /api/pending-sessions` - Get a list of pending sessions.
+1. `POST /warden/login` - User authentication and token generation.
+2. `GET /sessions/free` - Get a list of free sessions.
+3. `POST /sessions/book` - Book a session.
+4. `GET /sessions/pending` - Get a list of pending sessions.
+5. `POST /warden/logout` - Log out and invalidate the authentication token.
 
 **Readme:**
 1. **Setup:**
